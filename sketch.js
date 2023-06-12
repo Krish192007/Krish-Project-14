@@ -68,7 +68,7 @@ function draw() {
   
   if (arrowGroup.isTouching(redB)) {
     
-    redB.destroy();
+    redB.destroyEach();
     
     arrowGroup.destroyEach();
     score=score+1;
